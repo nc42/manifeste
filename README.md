@@ -33,7 +33,7 @@ This project is guided by the following principles:
 + **(Horizontal) Scalability**: the tools we build have to be designed with scalability in mind. Anyone should be able, using them, to deploy the same features on either one, ten or a thousand servers (physical or virtual depending on the services you want). We surely couldn't afford huge infrastructures to test it by our selves, but here's where the collaboration in the community is important.
 **Efficiency**: the footprint of those tools, has to be as low as possible. Deployments also have to be as fast as possible. We aim to provide performances tests in our release process.
 
-## What is nc42.fr
+## What is nc42.fr ?
 
 This is the very first instance of infrastructure, that will be built alongside of this project development. This will be the exact reflect of the tools we built in nc42 repositories (infrastructure as code, remember). We hope it will give others the wish to implement one and use our tools.
 
