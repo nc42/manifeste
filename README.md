@@ -31,7 +31,7 @@ This project is guided by the following principles:
 + **KISS and UNIX phylosophy**: we will strive to guide our choices to deliver tools as simple as possible, following the Keep It Simple and Stupid principle. Those tools should also do one thing (or at least, not more than a few things) and do it well, following the well known principle from the UNIX world.
 + **Security**: we aim to deliver tools as secure as possible, staying tuned on security best practices (https://bettercrypto.org/ for example) and keeping our code and tools up to date.
 + **(Horizontal) Scalability**: the tools we build have to be designed with scalability in mind. Anyone should be able, using them, to deploy the same features on either one, ten or a thousand servers (physical or virtual depending on the services you want). We surely couldn't afford huge infrastructures to test it by our selves, but here's where the collaboration in the community is important.
-**Efficiency**: the footprint of those tools, has to be as low as possible. Deployments also have to be as fast as possible. We aim to provide performances tests in our release process.
++ **Efficiency**: the footprint of those tools, has to be as low as possible. Deployments also have to be as fast as possible. We aim to provide performances tests in our release process.
 
 ## What is nc42.fr ?
 
