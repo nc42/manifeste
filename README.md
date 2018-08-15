@@ -14,7 +14,7 @@ However, there are some problems with those services:
 + The data you put on those platforms is not safe. More important, some governemental organization could access it, without you any notice. This is also true, for the organizations of foreign countries. You can indeed, choose the region where you want to put your workloads, but guess where all the backups go ?
 + Once you deploy your production infrastructure on one of those platforms, you are dependant. Initiatives and technologies exist to enable you to balance your deployments between multiple cloud provider (multi-cloud), to deploy your services anywhere else almost the same way (infrastructure as code), or simply backup all your data, code and configurations plus provide a fail-over. Those techniques do exist, but are not easy to implement and do have drawbacks as it is always painful to replace the underlying infrastructure of a company production.
 + They can be expensive. Those platforms are great, to either start a project, or innovate and add new features to an existing project, they are really evolutive and simple to use. However this has a cost and the longer your project will rely on them, the most you'll realize it. If your workloads are heavy plus they don't evolve very fast, those platforms will be really expensive to use.
-+ They encourage centralization of the Internet. A lot of companies and services on the Internet, rely on those platforms. This is questionnable in terms of resiliency (each time AWS is impacted by an incident, everyone notices it, as most of our daily usage services rely on it) and governancy ().
++ They encourage centralization of the Internet. A lot of companies and services on the Internet, rely on those platforms. This is questionnable in terms of resiliency (each time AWS is impacted by an incident, everyone notices it, as most of our daily usage services rely on it) and governancy.
 
 ### What is the difference with OpenStack, CloudStack, Kubernetes and other, open source, cloud related softwares ?
 
@@ -32,9 +32,3 @@ This project is guided by the following principles:
 + **Security**: we aim to deliver tools as secure as possible, staying tuned on security best practices (https://bettercrypto.org/ for example) and keeping our code and tools up to date.
 + **(Horizontal) Scalability**: the tools we build have to be designed with scalability in mind. Anyone should be able, using them, to deploy the same features on either one, ten or a thousand servers (physical or virtual depending on the services you want). We surely couldn't afford huge infrastructures to test it by our selves, but here's where the collaboration in the community is important.
 **Efficiency**: the footprint of those tools, has to be as low as possible. Deployments also have to be as fast as possible. We aim to provide performances tests in our release process.
-
-## What is nc42.fr ?
-
-This is the very first instance of infrastructure, that will be built alongside of this project development. This will be the exact reflect of the tools we built in nc42 repositories (infrastructure as code, remember). We hope it will give others the wish to implement one and use our tools.
-
-TODO: describe the goals and purposes of nc42.fr in itself
